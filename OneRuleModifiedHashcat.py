@@ -1,5 +1,5 @@
-rules = open("OneRuleModifiedHashcat.rule", 'r')
-new = open("unnamedFile.txt", 'w')
+rules = open("OneRuleModifiedHashcatTemplate", 'r')
+new = open("OneRuleModifiedHashcat.rule", 'w')
 
 while (True):
     rule = rules.readline().strip(chr(10))
